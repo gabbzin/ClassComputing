@@ -10,9 +10,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    user-select: none;
+}
+
+#botao {
+    background-color: rgba(255, 255, 255, 0.307);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
     cursor: pointer;
 }
+
+.listaBinarios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.binario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
 
 .bloco {
     font-size: 5em;
@@ -31,4 +57,12 @@ body {
     background-color: rgb(248, 245, 167);
     color: black;
     border: 2px solid black;
+}
+
+.resultado {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    text-shadow: 2px black;
+    color: white;
+    
 }
