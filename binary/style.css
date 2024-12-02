@@ -39,7 +39,6 @@ body {
     margin-bottom: 40px;
 }
 
-
 .bloco {
     font-size: 5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,6 +56,9 @@ body {
     background-color: rgb(248, 245, 167);
     color: black;
     border: 2px solid black;
+    -webkit-box-shadow:0px 0px 116px 10px rgba(153,140,25,0.9);
+    -moz-box-shadow: 0px 0px 116px 10px rgba(153,140,25,0.9);
+    box-shadow: 0px 0px 116px 10px rgba(153,140,25,0.9);
 }
 
 .resultado {
